@@ -1,5 +1,4 @@
 const env = process.env;
-env.port = 3000
 
 export const nodeEnv = env.NODE_ENV || 'development';
 
