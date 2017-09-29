@@ -6,6 +6,7 @@ server.get("/", (req, res) => {
 	res.send("hello world")
 })
 
+console.log("port num is " + config.port);
 server.listen(config.port, () => {
 	console.log("listening for events")
 })
